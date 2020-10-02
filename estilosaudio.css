@@ -1,0 +1,114 @@
+/* #Reproduccion{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: gray 5px 15px 15px;
+    width: 720px;
+    margin: 20px auto;
+    background-color: salmon;
+    padding: 3px;
+}
+#Reproduccion #miAudio{
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+#Botones {
+    float: left;
+    width: 100px;
+    height: 20px;
+}
+#Barra{
+    background-color: #fff;
+    width: 600px;
+    height: 16px;
+    border: 2px solid gray;
+    padding: 2px;
+    margin-left: 80px;
+}
+#Progreso{
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    background-color: rgba(0, 0,150, 0.5);
+} */
+#Audio{
+   width: 800px;
+   height: 50px;
+   margin: 20px auto;
+   background-color: royalblue;
+   padding: 0.6rem;
+   border-radius: 5px;
+   border: 2px solid #000;
+   box-shadow: 4px 4px 4px gray;
+}
+nav{
+    margin: 5px 0;
+}
+#botones {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   overflow: hidden;
+   flex-wrap: wrap;
+}
+
+.vol{
+   width: 100%;
+}
+.volumen{
+    margin-left:80%;
+}
+
+.imagenes{
+    width: 400px;
+    height: 200px;
+    background-color: royalblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -15px;
+    color: #fff;
+}
+.imagenes img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+
+
+#barra{
+    background-color:#000;
+    width: 600px;
+    height: 10px;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 10px;
+}
+#progreso{
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    background: #fff ;
+    border-radius: 10px;
+}
+#reproducir ,#adelantar,#regresar{
+    padding: 0.5rem;
+    border: 1px solid #000;
+    background-color: royalblue;
+    color: #fff;
+    width: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+#reproducir:hover,#adelantar:hover,#regresar:hover{
+    background-color:#fff ;
+    color: royalblue;
+}
